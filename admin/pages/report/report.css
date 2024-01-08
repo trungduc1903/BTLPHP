@@ -1,0 +1,192 @@
+.report {
+    height: calc(100vh - 56px - 24px);
+    max-height: calc(100vh - 56px - 24px);
+    overflow: auto;
+    margin-right: -24px;
+}
+
+.report .report-container {
+    margin-right: 24px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    margin-bottom: 24px;
+    overflow: auto;
+    padding: 24px;
+}
+
+.report select {
+    width: 100%;
+}
+
+
+.report .content {
+    width: 100%;
+    max-width: calc(100% - 150px);
+    padding: 0 20px;
+    height: 100%;
+}
+
+.report input[type="checkbox"] {
+    width: 16px;
+}
+
+.report form label.form-group {
+    display: flex;
+    margin: unset;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+label {
+    display: flex;
+    margin: unset;
+    flex-direction: row;
+}
+
+.report .flex-container {
+    display: flex;
+    column-gap: 12px;
+}
+
+.report .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;    
+    min-width: 150px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    row-gap: 8px;
+}
+
+.report .card .type {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.report .card .quantity {
+    font-size: 25px;
+    font-weight: 900;
+}
+.report .card .percent {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.report .card {
+    position: relative;
+}
+.report .card.success {
+    color: #004b50;
+    background: linear-gradient(
+            135deg,
+            rgba(91, 228, 155, 0.2),
+            rgba(0, 167, 111, 0.2)
+        )
+        rgb(255, 255, 255);
+}
+.report .card.infor {
+    color: #003768;
+    background: linear-gradient(
+            135deg,
+            rgba(97, 243, 243, 0.2),
+            rgba(0, 184, 217, 0.2)
+        )
+        rgb(255, 255, 255);
+}
+.report .card.warning {
+    color: #7a4100;
+    background: linear-gradient(
+            135deg,
+            rgba(255, 214, 102, 0.2),
+            rgba(255, 171, 0, 0.3)
+        )
+        rgb(255, 255, 255);
+}
+.report .card.error {
+    color: #7a0916;
+    background: linear-gradient(
+            135deg,
+            rgba(255, 172, 130, 0.2),
+            rgba(255, 86, 48, 0.2)
+        )
+        rgb(255, 255, 255);
+}
+
+.report .class-card {
+    cursor: pointer;
+    border: 1px #eee solid;
+    width: 40%;
+    box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    border-radius: 8px;
+}
+.report .class-card .card-container{
+    
+    padding: 12px;
+}
+
+.report .class-card .classification {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4px;
+    row-gap: 4px;
+}
+
+.report .classes-report {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.report #grade--10:not(:checked) ~ .grade--10 {
+    display: none;
+}
+.report #grade--11:not(:checked) ~ .grade--11 {
+    display: none;
+}
+.report #grade--12:not(:checked) ~ .grade--12 {
+    display: none;
+}
+
+.report .class-report {
+    align-items: flex-start;
+    background-color: unset;
+    padding: 0;
+
+}
+
+.report .class-report .toolbar {
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    padding: 24px;
+    width: 200px;
+    border-radius: 24px;
+    flex-shrink: 0;
+}
+
+
+.report .class-report .content{
+    background-color: white;
+    padding: 24px;
+    border-radius: 24px;
+    max-height: calc(100vh - 56px - 24px - 200px - 24px - 24px);
+    overflow: auto;
+}
+
+
+
+

@@ -1,0 +1,30 @@
+.security-page{
+    padding: 48px;
+    background-color: white;
+    margin: 0 auto;
+    width: fit-content;
+    min-width: 400px;
+    border-radius: 24px;
+}
+
+.security-page .form-title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.security-page .form-group{
+    margin-bottom: 12px;
+}
+
+.security-page input{
+    height: 48px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.security-page .form-buttons{
+    display: flex;
+    column-gap: 12px;
+}
+.security-page .form-buttons .btn{
+    width: 100%;
+}

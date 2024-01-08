@@ -1,0 +1,192 @@
+@import url("./components/header/Header.css");
+@import url("./components/navbar/navbar.css");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f1f4f7fd;
+    color: #5f6468;
+    
+    width: 100vw;
+    height: 100vh;
+}
+.page-body{
+    padding: 8px;
+    max-height: calc(100vh - 56px);
+    background-color: white;
+    border-radius: 8px;
+}
+.table-wrapper{
+    max-height: calc(100vh - 56px - 64px - 64px - 32px);
+    overflow: auto;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+}
+.App .header {
+    width: 100%;
+    height: 56px;
+}
+.App .app-body {
+    display: flex;
+    height: calc(100% - 56px);
+    width: 100%;
+}
+
+.App main {
+    width: 100%;
+}
+
+.App .navbar {
+    min-width: 200px;
+    height: 100%;
+}
+.App .page-content {
+    padding: 12px;
+}
+.App .page-title {
+    margin: 12px 0;
+}
+.App .toolbar {
+    margin: 12px 0;
+}
+
+/* input */
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 14px;
+}
+form label {
+    margin: 24px 0;
+}
+
+input {
+    width: 300px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+}
+input::placeholder {
+    color: #999999;
+    font-size: 14px;
+}
+input:hover {
+    background-color: #e6e6e6;
+    cursor: text;
+}
+input:focus {
+    border: 1px solid #50b83c;
+    outline: none;
+}
+
+.page-score input {
+    width: 40px;
+    padding-left: 8px;
+}
+
+/* button */
+
+.btn {
+    height: 36px;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* select */
+
+select {
+    margin-top: 8px;
+    width: 300px;
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    outline: none;
+}
+select:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+select:focus {
+    border: 1px solid #50b83c;
+    outline: none;
+}
+
+
+.account.page-title{
+    padding: 12px;
+
+}
+
+.page-content.page-account {
+    padding: 46px;
+    border-radius: 24px;
+    background-color: white;
+    margin: 0 auto;
+    width: fit-content;
+    overflow: auto;
+}
+
+.page-account .form-container{
+    display: flex;    
+}
+
+.page-account input{
+    height: 52px;
+    border-radius: 8px;
+}
+
+.page-account .ava-preview{
+    width: 250px;
+    height: 250px;
+    background-color: #eee;
+    overflow: hidden;
+    border: 1px #eee solid;
+    border-radius: 20%;
+    position: relative;
+}
+
+.page-account .add-ava-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    font-size: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.page-account .add-ava-icon:hover{
+    opacity: 0.6;
+}
+
+
+.page-account .user-ava{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-ava{
+    height: 100%;
+}
+.form-buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 8px;
+}

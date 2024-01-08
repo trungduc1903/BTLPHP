@@ -1,0 +1,70 @@
+.login *{
+    
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.login-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../asset/img_Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+   
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+}
+
+.login .background-left{
+    width: 360px;
+    height: 500px;
+    background-image: url(../asset/background_left.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login .container{
+    width: 360px;
+    padding: 48px 24px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.login .btn{
+    width: 100%;
+}
+.login input{
+    width: 100%;
+    margin: 0;
+}
+
+.login .title{
+    text-align: center;
+}
+.login .error-message{
+    padding: 12px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-radius: 4px;
+}
+
+
+
+

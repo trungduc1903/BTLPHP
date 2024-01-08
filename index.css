@@ -1,0 +1,18 @@
+@import url(./asset/css/table.css);
+@import url(./asset/css/icon.css);
+@import url(./asset/css/form.css);
+@import url(./asset/css/toast.css);
+@import url(./asset/css/chip.css);
+@import url(./asset/css/button.css);
+@import url(./asset/css/search.css);
+@import url(./App.css);
+@font-face{
+    font-family: Roboto;
+    src: url(../asset/Roboto/Roboto-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}

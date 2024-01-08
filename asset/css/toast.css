@@ -1,0 +1,31 @@
+.toast{
+    width: 100%;
+    padding: 12px;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.toast::before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: currentColor;
+    opacity: 0.1;
+}
+
+.toast.success{
+    color: #50B83C;
+    display: block;
+}
+
+.toast.error{
+    color: #DE3618;
+    display: block;
+
+}

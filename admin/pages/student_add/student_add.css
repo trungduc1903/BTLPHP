@@ -1,0 +1,21 @@
+.form-container{
+    display: flex;
+    column-gap: 24px;
+}
+.student-add-page{
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    overflow: auto;
+   
+}
+.student-add-page input,.student-add-page select{
+    height: 48px;
+}
+.student-add-page label{
+    font-size: 16px;
+}
+.student-add-page .form-buttons{
+    margin-top: 8px;
+
+}

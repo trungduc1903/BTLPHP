@@ -1,0 +1,14 @@
+.class-students-page .table-wrapper {
+    max-height: calc(100vh - 250px);
+}
+
+
+.class-students-page.page-content{
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.class-students-page .table-footer{
+    padding:8px;
+}

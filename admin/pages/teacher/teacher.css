@@ -1,0 +1,11 @@
+.teacher-page .toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.teacher-page .toolbar--right{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}

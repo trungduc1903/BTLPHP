@@ -1,0 +1,55 @@
+.navbar-wrapper{
+    background-color: #041434;
+    height: 100%;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+
+.navbar-wrapper a{
+    text-decoration: none;
+}
+.navbar-wrapper .grade{
+    display: inline-block;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    
+}
+.navbar-wrapper .nav-item {
+    color: white;
+    text-decoration: unset;
+    
+}
+
+.nav-item .grade{
+    font-size: 16px;
+}
+
+.nav-item a{
+    color: white;
+    font-size: 14px;
+}
+.navbar-wrapper .grade:hover,.navbar-wrapper .class-item:hover {
+    background-color: #a7c4ff5e;
+    cursor: pointer;
+}
+
+.navbar .class-list{
+    display: none;
+    margin-left: 24px;
+}
+.navbar .class-item{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.navbar input:checked~.class-list{
+    display: block;
+}
+
+.navbar .active{
+    background-color: #a7c4ff50;
+}

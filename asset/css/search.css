@@ -1,0 +1,17 @@
+.search {
+    display: flex;
+    position: relative;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.search .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.search input{
+    padding-right: 24px;
+}

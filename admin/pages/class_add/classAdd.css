@@ -1,0 +1,26 @@
+.class-add-page .form-wrapper{
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class-add-page input{
+    height: 52px;
+    border-radius: 8px;
+
+}
+
+.class-add-page .label{
+    font-size: 16px;
+}
+
+.class-add-page .form-buttons{
+    margin-top: 12px;    
+}
+.class-add-page .btn{
+    height: 56px;
+    width: 100%;
+}

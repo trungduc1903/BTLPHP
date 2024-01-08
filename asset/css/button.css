@@ -1,0 +1,21 @@
+.btn{
+    height: 36px;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: #eee;
+}
+
+.btn.pri{
+    background-color: #8ad919;
+    border-color: #8ad919;
+    color: white;
+}
+.btn.pri:hover{
+    background-color: #70c000;
+}

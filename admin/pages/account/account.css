@@ -1,0 +1,83 @@
+.page-account .content{    
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+    width: fit-content;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.page-account input{
+    height: 52px;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100%;
+}
+.page-title.page-account__title{
+    padding: 0 24px;
+    margin-bottom: 12px;
+   
+}
+label{
+    margin: 0;
+
+}
+.label{
+    font-size: 16px;
+}
+
+.page-account .wrapper{
+    display: flex;
+    column-gap: 24px;
+}
+
+.page-account .wrapper .item{
+    width: 100%;
+    
+}
+
+.page-account .ava-preview{
+    width: 250px;
+    height: 250px;
+    background-color: #eee;
+    overflow: hidden;
+    border: 1px #eee solid;
+    border-radius: 20%;
+    position: relative;
+}
+
+.page-account .add-ava-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    font-size: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.page-account .add-ava-icon:hover{
+    opacity: 0.6;
+}
+
+
+.page-account .user-ava{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-ava{
+    height: 100%;
+}
+
+.page-account .group-button{
+    padding: 16px 0;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 16px;
+}
+
